@@ -141,7 +141,7 @@ const ContactPage = () => {
                     className="grayscale hover:grayscale-0 transition-all duration-700"
                   ></iframe>
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded-full text-xs font-bold shadow-md flex items-center gap-2">
-                    <MapPin size={14} className="text-pink" /> Find us in Dehradun
+                    <MapPin size={14} className="text-pink" /> Find us in Ranchi
                   </div>
                 </div>
               </Reveal>
