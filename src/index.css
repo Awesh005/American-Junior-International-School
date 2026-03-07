@@ -45,12 +45,6 @@
 }
 
 /* Custom Components */
-.logo-badge {
-  @apply w-12 h-12 rounded-sm flex items-center justify-center text-2xl shrink-0;
-  background: linear-gradient(135deg, #FFD93D, #FF6B6B);
-  box-shadow: 0 4px 14px rgba(255,107,107,.35);
-}
-
 .nav-cta {
   @apply text-white rounded-xl px-6 py-2.5 font-display text-[0.95rem] font-extrabold transition-all duration-200 whitespace-nowrap;
   background: linear-gradient(135deg, #FF6B6B, #FF9F43);

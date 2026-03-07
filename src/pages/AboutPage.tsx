@@ -74,6 +74,9 @@ const AboutPage = () => {
       {/* Page Hero */}
       <section className="relative pt-32 pb-20 px-[5vw] overflow-hidden text-center min-h-[50vh] flex items-center justify-center bg-gradient-to-br from-[#FFF4D6] via-[#E6F0FF] to-[#FFE8F8]">
         <FloatingShapes />
+        <div className="absolute inset-0 z-0 opacity-10">
+          <img src="/school.png" alt="" className="w-full h-full object-cover grayscale" />
+        </div>
         <div className="max-w-[800px] relative z-10">
           <Reveal>
             <div className="inline-flex items-center gap-2 bg-white rounded-full px-4 py-1.5 text-[0.85rem] font-bold text-mid shadow-sm mb-6">
@@ -371,26 +374,43 @@ const AboutPage = () => {
               <h2 className="font-display text-[clamp(1.7rem,4vw,2.6rem)] font-black mb-2">
                 World-Class <span className="text-blue">Facilities</span>
               </h2>
-              <p className="text-mid text-lg">Spaces designed with children's safety, comfort, and joy in mind</p>
+              <p className="text-mid text-lg mb-12">Spaces designed with children's safety, comfort, and joy in mind</p>
             </Reveal>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[960px] mx-auto">
-            {infra.map((item, idx) => (
-              <Reveal key={idx} delay={idx * 50}>
-                <motion.div 
-                  whileHover={{ y: -8, scale: 1.02 }}
-                  className={`bg-gradient-to-br ${item.bg} p-10 rounded-md text-center shadow-sm hover:shadow-md transition-all h-full`}
-                >
-                  <div className="text-blue/70 mb-4 flex justify-center">{item.icon}</div>
-                  <h4 className="font-display text-lg font-black mb-3">{item.title}</h4>
-                  <p className="text-[0.85rem] text-mid leading-relaxed">{item.desc}</p>
-                </motion.div>
+          <div className="flex flex-col lg:flex-row gap-12 items-center mb-20">
+            <div className="flex-1">
+              <Reveal>
+                <div className="relative">
+                  <motion.div 
+                    whileHover={{ scale: 1.02 }}
+                    className="rounded-3xl overflow-hidden shadow-2xl border-8 border-bg relative z-10"
+                  >
+                    <img src="/school.png" alt="AJIS Campus" className="w-full h-auto" />
+                  </motion.div>
+                  <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-yellow/20 rounded-full blur-2xl -z-10"></div>
+                  <div className="absolute -top-6 -left-6 w-32 h-32 bg-pink/20 rounded-full blur-2xl -z-10"></div>
+                </div>
               </Reveal>
-            ))}
+            </div>
+            <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {infra.map((item, idx) => (
+                <Reveal key={idx} delay={idx * 50}>
+                  <motion.div 
+                    whileHover={{ y: -5 }}
+                    className={`bg-gradient-to-br ${item.bg} p-6 rounded-2xl shadow-sm hover:shadow-md transition-all h-full flex flex-col items-center text-center`}
+                  >
+                    <div className="text-blue/70 mb-3 scale-75">{item.icon}</div>
+                    <h4 className="font-display text-base font-black mb-2">{item.title}</h4>
+                    <p className="text-[0.8rem] text-mid leading-relaxed">{item.desc}</p>
+                  </motion.div>
+                </Reveal>
+              ))}
+            </div>
           </div>
         </div>
       </section>
+
 
       {/* CTA Strip */}
       <section className="py-20 px-[5vw] bg-white text-center border-t-2 border-dashed border-pink/20">

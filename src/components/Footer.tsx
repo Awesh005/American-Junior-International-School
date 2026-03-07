@@ -20,35 +20,35 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-white pt-24 pb-12 overflow-hidden">
+    <footer className="relative bg-gradient-to-b from-white to-[#FFF5F8] pt-24 pb-12 overflow-hidden">
       {/* Decorative Background Elements */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0] transform rotate-180">
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" className="relative block w-full h-[60px] fill-bg">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" className="relative block w-full h-[60px] fill-white">
           <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
         </svg>
       </div>
 
       {/* Floating Shapes */}
       <motion.div 
-        animate={{ y: [0, -10, 0], rotate: [0, 5, 0] }}
-        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-20 left-[5%] text-pink/20 pointer-events-none"
+        animate={{ y: [0, -15, 0], rotate: [0, 10, 0] }}
+        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+        className="absolute top-20 left-[8%] text-pink/10 pointer-events-none"
       >
-        <Star size={40} fill="currentColor" />
+        <Star size={60} fill="currentColor" />
       </motion.div>
       <motion.div 
-        animate={{ y: [0, 10, 0], rotate: [0, -5, 0] }}
-        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-        className="absolute bottom-40 right-[10%] text-blue/20 pointer-events-none"
+        animate={{ y: [0, 15, 0], rotate: [0, -10, 0] }}
+        transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+        className="absolute bottom-40 right-[12%] text-blue/10 pointer-events-none"
       >
-        <Cloud size={60} fill="currentColor" />
+        <Cloud size={80} fill="currentColor" />
       </motion.div>
       <motion.div 
-        animate={{ scale: [1, 1.1, 1] }}
-        transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-40 right-[5%] text-yellow/20 pointer-events-none"
+        animate={{ scale: [1, 1.2, 1], rotate: [0, 90, 180, 270, 360] }}
+        transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+        className="absolute top-40 right-[8%] text-yellow/10 pointer-events-none"
       >
-        <Sparkles size={30} />
+        <Sparkles size={40} />
       </motion.div>
 
       <div className="max-w-[1200px] mx-auto px-[5vw] relative z-10">
@@ -56,35 +56,35 @@ const Footer = () => {
           {/* School Info */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-3 group">
-              <div className="w-12 h-12 bg-gradient-to-br from-pink to-orange rounded-2xl flex items-center justify-center text-white shadow-lg group-hover:rotate-6 transition-transform">
-                <School size={28} />
+              <div className="w-22 h-22 flex items-center justify-center group-hover:rotate-12 transition-transform duration-500 shrink-0">
+                <img src="/logo.png" alt="AJIS Logo" className="w-full h-full object-contain" />
               </div>
               <div className="leading-tight">
-                <span className="block font-display text-2xl font-black text-dark tracking-tight">AJIS</span>
-                <span className="text-[0.7rem] font-bold text-blue uppercase tracking-wider">American Junior</span>
+                <span className="block font-display text-3xl font-black text-dark tracking-tight">AJIS</span>
+                <span className="text-[0.65rem] font-black text-blue uppercase tracking-[0.2em]">American Junior</span>
               </div>
             </Link>
-            <p className="text-mid text-[0.95rem] leading-relaxed">
-              Nurturing young minds with love, care, and quality education. The best foundation for your child's future.
+            <p className="text-mid text-[1rem] leading-relaxed font-medium">
+              "Nurturing young minds with love, care, and quality education."
             </p>
-            <div className="space-y-3">
-              <div className="flex items-start gap-3 text-mid text-sm group">
-                <div className="w-8 h-8 rounded-lg bg-pink/10 flex items-center justify-center text-pink shrink-0 group-hover:scale-110 transition-transform">
-                  <MapPin size={16} />
+            <div className="space-y-4 pt-2">
+              <div className="flex items-start gap-4 text-mid text-sm group">
+                <div className="w-10 h-10 rounded-2xl bg-white shadow-sm flex items-center justify-center text-pink shrink-0 group-hover:scale-110 group-hover:rotate-3 transition-all">
+                  <MapPin size={18} />
                 </div>
-                <span>Argora-Kathal More Road, Near Sai Apartment.</span>
+                <span className="pt-2">Argora-Kathal More Road, Near Sai Apartment.</span>
               </div>
-              <div className="flex items-center gap-3 text-mid text-sm group">
-                <div className="w-8 h-8 rounded-lg bg-blue/10 flex items-center justify-center text-blue shrink-0 group-hover:scale-110 transition-transform">
-                  <Phone size={16} />
+              <div className="flex items-center gap-4 text-mid text-sm group">
+                <div className="w-10 h-10 rounded-2xl bg-white shadow-sm flex items-center justify-center text-blue shrink-0 group-hover:scale-110 group-hover:-rotate-3 transition-all">
+                  <Phone size={18} />
                 </div>
-                <a href="tel:+919759242134" className="hover:text-blue transition-colors">+91 9759242134</a>
+                <a href="tel:+919759242134" className="hover:text-blue transition-colors font-semibold">+91 9759242134</a>
               </div>
-              <div className="flex items-center gap-3 text-mid text-sm group">
-                <div className="w-8 h-8 rounded-lg bg-green/10 flex items-center justify-center text-green shrink-0 group-hover:scale-110 transition-transform">
-                  <Mail size={16} />
+              <div className="flex items-center gap-4 text-mid text-sm group">
+                <div className="w-10 h-10 rounded-2xl bg-white shadow-sm flex items-center justify-center text-green shrink-0 group-hover:scale-110 group-hover:rotate-3 transition-all">
+                  <Mail size={18} />
                 </div>
-                <a href="mailto:edgenie2025@gmail.com" className="hover:text-green transition-colors">edgenie2025@gmail.com</a>
+                <a href="mailto:edgenie2025@gmail.com" className="hover:text-green transition-colors font-semibold">edgenie2025@gmail.com</a>
               </div>
             </div>
           </div>

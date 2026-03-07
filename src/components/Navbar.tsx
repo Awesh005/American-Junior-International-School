@@ -43,8 +43,8 @@ const Navbar = () => {
           whileHover={{ scale: 1.05 }}
         >
           <Link to="/" className="logo flex items-center gap-3 no-underline">
-            <div className="logo-badge">
-              <School size={28} className="text-white" />
+            <div className="w-16 h-16 shrink-0 flex items-center justify-center">
+              <img src="/logo.png" alt="AJIS Logo" className="w-full h-full object-contain" />
             </div>
             <div className="logo-words leading-tight">
               <strong className="block font-display text-base font-black text-dark">American Junior</strong>
@@ -52,6 +52,7 @@ const Navbar = () => {
             </div>
           </Link>
         </motion.div>
+
 
         <ul className="nav-links hidden lg:flex items-center gap-8 list-none">
           {navLinks.map((link) => (

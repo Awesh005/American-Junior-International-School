@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import StatsStrip from '../components/StatsStrip';
 import About from '../components/About';
+import CampusShowcase from '../components/CampusShowcase';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Programs from '../components/Programs';
 import Activities from '../components/Activities';
@@ -21,6 +22,7 @@ const HomePage = () => {
       <Hero />
       <StatsStrip />
       <About />
+      <CampusShowcase />
       <WhyChooseUs />
       <Programs />
       <Activities />

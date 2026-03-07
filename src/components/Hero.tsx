@@ -69,11 +69,27 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-lg text-mid leading-relaxed max-w-[460px] mb-9 mx-auto lg:mx-0"
+              className="text-lg text-mid leading-relaxed max-w-[460px] mb-6 mx-auto lg:mx-0"
             >
               A joyful, safe, and colourful place where children aged 2–6 learn through play,
               grow with confidence, and make friendships that last a lifetime.
             </motion.p>
+
+            {/* Campus Preview Thumbnail */}
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+              className="flex items-center gap-3 mb-9 justify-center lg:justify-start"
+            >
+              <div className="w-14 h-14 rounded-xl overflow-hidden border-2 border-white shadow-md rotate-3">
+                <img src="/school.png" alt="Campus" className="w-full h-full object-cover" />
+              </div>
+              <div className="text-left">
+                <div className="text-[0.65rem] font-black text-pink uppercase tracking-widest">Our Campus</div>
+                <div className="text-xs font-bold text-dark">Modern & Secure Facility</div>
+              </div>
+            </motion.div>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -146,8 +162,8 @@ const Hero = () => {
 
             {/* Kid 1 */}
             <circle cx="205" cy="208" r="38" fill="#FFD5A8"/>
-            <path d="M167 198 Q205 160 243 198" fill="#5C3A1E"/>
-            <ellipse cx="205" cy="170" rx="38" ry="12" fill="#5C3A1E"/>
+            <path d="M167 203 Q205 165 243 203" fill="#5C3A1E"/>
+            <ellipse cx="205" cy="175" rx="38" ry="12" fill="#5C3A1E"/>
             <circle cx="192" cy="204" r="5.5" fill="#fff"/>
             <circle cx="218" cy="204" r="5.5" fill="#fff"/>
             <circle cx="193" cy="205" r="3.2" fill="#333"/>
@@ -165,9 +181,9 @@ const Hero = () => {
 
             {/* Kid 2 */}
             <circle cx="328" cy="212" r="36" fill="#FDDCB0"/>
-            <circle cx="298" cy="193" r="14" fill="#CC6B47"/>
-            <circle cx="358" cy="193" r="14" fill="#CC6B47"/>
-            <path d="M292 206 Q328 168 364 206" fill="#CC6B47"/>
+            <circle cx="298" cy="198" r="14" fill="#CC6B47"/>
+            <circle cx="358" cy="198" r="14" fill="#CC6B47"/>
+            <path d="M292 211 Q328 173 364 211" fill="#CC6B47"/>
             <circle cx="316" cy="208" r="5.5" fill="#fff"/>
             <circle cx="340" cy="208" r="5.5" fill="#fff"/>
             <circle cx="317" cy="209" r="3.2" fill="#333"/>

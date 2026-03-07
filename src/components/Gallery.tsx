@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom';
 
 const Gallery = () => {
   const items = [
-    { src: '/gi1.png', label: 'Art & Craft Session', class: 'gi1' },
-    { src: '/gi2.png', label: 'Our Classrooms', class: 'gi2' },
-    { src: '/gi3.png', label: 'Nature Corner', class: 'gi3' },
-    { src: '/gi4.png', label: 'Story Time', class: 'gi4' },
-    { src: '/gi5.png', label: 'Music & Dance', class: 'gi5' },
-    { src: '/gi6.png', label: 'Outdoor Play', class: 'gi6' },
+    { src: '/school.png', label: 'Our Premium Campus', class: 'gi1' },
+    { src: '/gi1.png', label: 'Art & Craft Session', class: 'gi2' },
+    { src: '/gi2.png', label: 'Our Classrooms', class: 'gi3' },
+    { src: '/gi3.png', label: 'Nature Corner', class: 'gi4' },
+    { src: '/gi4.png', label: 'Story Time', class: 'gi5' },
+    { src: '/gi5.png', label: 'Music & Dance', class: 'gi6' },
   ];
 
   return (
