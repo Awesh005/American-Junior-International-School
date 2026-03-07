@@ -56,7 +56,7 @@ const Footer = () => {
           {/* School Info */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-3 group">
-              <div className="w-22 h-22 flex items-center justify-center group-hover:rotate-12 transition-transform duration-500 shrink-0">
+              <div className="w-20 h-20 flex items-center justify-center group-hover:rotate-12 transition-transform duration-500 shrink-0">
                 <img src="/logo.png" alt="AJIS Logo" className="w-full h-full object-contain" />
               </div>
               <div className="leading-tight">
