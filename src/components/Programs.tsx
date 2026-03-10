@@ -7,10 +7,9 @@ import { Link } from 'react-router-dom';
 
 const Programs = () => {
   const programs = [
-    { id: 'playgroup', icon: <Baby size={48} />, title: 'Play Group', age: 'Age 2 – 3 years', desc: 'Sensory play, basic motor skills, and social introduction in a warm, nurturing setting.', class: 'pc1', ageColor: '#FF6B6B' },
-    { id: 'nursery', icon: <Smile size={48} />, title: 'Nursery', age: 'Age 3 – 4 years', desc: 'Language development, early math concepts through stories and creative activities.', class: 'pc2', ageColor: '#B8860B' },
-    { id: 'lkg', icon: <Rocket size={48} />, title: 'LKG', age: 'Age 4 – 5 years', desc: 'Reading readiness, number sense, and building independence with fun projects.', class: 'pc3', ageColor: '#6BCB77' },
-    { id: 'ukg', icon: <Sparkles size={48} />, title: 'UKG', age: 'Age 5 – 6 years', desc: 'School-readiness skills, critical thinking, teamwork, and self-expression.', class: 'pc4', ageColor: '#4D96FF' },
+    { id: 'daycare', icon: <Heart size={48} />, title: 'Day Care', age: '1.5 – 2.5 Years', desc: 'A safe, loving home away from home with engaging activities.', class: 'pc1', ageColor: '#FF6B6B' },
+    { id: 'foundation', icon: <Smile size={48} />, title: 'Foundation Years', age: '2.5 – 5.5 Years', desc: 'Nursery, PP1, and PP2 programs focusing on holistic development.', class: 'pc2', ageColor: '#B8860B' },
+    { id: 'primary', icon: <Sparkles size={48} />, title: 'Primary Education', age: '5.5 – 9.5 Years', desc: 'Classes 1 to 4 with a focus on academic excellence and character building.', class: 'pc3', ageColor: '#6BCB77' },
   ];
 
   return (

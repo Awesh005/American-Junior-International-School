@@ -71,7 +71,7 @@ const AdmissionPage = () => {
           
           <Reveal>
             <h1 className="font-display text-[clamp(2.2rem,6vw,3.8rem)] font-black leading-tight mb-4">
-              Admissions <span className="text-pink">2026-27</span> <br /> are Now <span className="text-green">Open!</span> 🎉
+              Admissions Open from <span className="text-pink">15th March</span>! 🎉
             </h1>
             <p className="text-mid text-lg max-w-2xl mx-auto leading-relaxed mb-8">
               Begin your child's most joyful journey yet. Secure a spot in our nurturing environment where every day is a new adventure.

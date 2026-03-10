@@ -332,7 +332,7 @@ const GalleryPage = () => {
           ↑
         </button>
         <a 
-          href="https://wa.me/919759242134" 
+          href="https://wa.me/919263064058" 
           target="_blank" 
           rel="noopener noreferrer"
           className="w-14 h-14 rounded-full bg-[#25D366] text-white shadow-lg flex items-center justify-center hover:scale-110 transition-transform text-2xl"

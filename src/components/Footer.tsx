@@ -72,13 +72,13 @@ const Footer = () => {
                 <div className="w-10 h-10 rounded-2xl bg-white shadow-sm flex items-center justify-center text-pink shrink-0 group-hover:scale-110 group-hover:rotate-3 transition-all">
                   <MapPin size={18} />
                 </div>
-                <span className="pt-2">Argora-Kathal More Road, Near Sai Apartment.</span>
+                <span className="pt-2">Argora - Kathal More Road, Near SAI Apartment, Pundag, Ranchi</span>
               </div>
               <div className="flex items-center gap-4 text-mid text-sm group">
                 <div className="w-10 h-10 rounded-2xl bg-white shadow-sm flex items-center justify-center text-blue shrink-0 group-hover:scale-110 group-hover:-rotate-3 transition-all">
                   <Phone size={18} />
                 </div>
-                <a href="tel:+919759242134" className="hover:text-blue transition-colors font-semibold">+91 9759242134</a>
+                <a href="tel:+919263064058" className="hover:text-blue transition-colors font-semibold">+91 9263064058</a>
               </div>
               <div className="flex items-center gap-4 text-mid text-sm group">
                 <div className="w-10 h-10 rounded-2xl bg-white shadow-sm flex items-center justify-center text-green shrink-0 group-hover:scale-110 group-hover:rotate-3 transition-all">

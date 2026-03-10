@@ -4,9 +4,9 @@ import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 const Contact = () => {
   const contactInfo = [
-    { icon: <Phone size={20} />, title: 'Call Us', value: '+91 97592 42134', sub: 'Mon-Sat, 8am-4pm', class: 'ci1' },
+    { icon: <Phone size={20} />, title: 'Call Us', value: '+91 9263064058', sub: 'Mon-Sat, 8am-4pm', class: 'ci1' },
     { icon: <Mail size={20} />, title: 'Email Us', value: 'edgenie2025@gmail.com', sub: 'We reply within 24h', class: 'ci2' },
-    { icon: <MapPin size={20} />, title: 'Visit Us', value: 'Argora-Kathal More Road', sub: 'Near Sai Apartment.', class: 'ci3' },
+    { icon: <MapPin size={20} />, title: 'Visit Us', value: 'Argora - Kathal More Road', sub: 'Near SAI Apartment, Pundag, Ranchi', class: 'ci3' },
     { icon: <Clock size={20} />, title: 'Office Hours', value: '8:00 AM - 4:00 PM', sub: 'Sunday Closed', class: 'ci4' },
   ];
 

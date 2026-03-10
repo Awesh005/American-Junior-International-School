@@ -32,7 +32,7 @@ const About = () => {
                 <GraduationCap size={16} /> About Us
               </div>
               <h2 className="font-display text-[clamp(1.6rem,3.5vw,2.4rem)] font-black leading-tight mb-5">
-                A School That<br /><span className="text-pink">Feels Like Home</span>
+                Where Little Minds<br /><span className="text-pink">Grow Big Dreams</span>
               </h2>
               <p className="text-mid leading-relaxed text-[1.05rem] mb-5">
                 American Junior International School is a nurturing haven for young learners aged 2–6. We believe that childhood is precious, and every single day is an opportunity for a child to discover something wonderful.

@@ -403,7 +403,7 @@ const ActivitiesPage = () => {
           <ArrowUp size={20} />
         </motion.button>
         <motion.a 
-          href="https://wa.me/919759242134" 
+          href="https://wa.me/919263064058" 
           target="_blank"
           whileHover={{ scale: 1.1 }}
           className="w-13 h-13 rounded-full bg-[#25D366] text-white shadow-lg flex items-center justify-center"

@@ -39,7 +39,7 @@ const ContactPage = () => {
     {
       icon: <PhoneCall className="text-pink" />,
       title: 'Call Us',
-      details: ['+91 97592 42134'],
+      details: ['+91 9263064058'],
       color: 'bg-pink/10'
     },
     {
@@ -51,7 +51,7 @@ const ContactPage = () => {
     {
       icon: <MapPin className="text-green" />,
       title: 'Visit Us',
-      details: ['Argora-Kathal More Road, Near Sai Apartment.'],
+      details: ['Argora - Kathal More Road, Near SAI Apartment, Pundag, Ranchi'],
       color: 'bg-green/10'
     },
     {
@@ -141,7 +141,7 @@ const ContactPage = () => {
                     className="grayscale hover:grayscale-0 transition-all duration-700"
                   ></iframe>
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-4 py-2 rounded-full text-xs font-bold shadow-md flex items-center gap-2">
-                    <MapPin size={14} className="text-pink" /> Find us in Ranchi
+                    <MapPin size={14} className="text-pink" /> Find us in Dehradun
                   </div>
                 </div>
               </Reveal>

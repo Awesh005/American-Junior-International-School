@@ -54,7 +54,7 @@ const Hero = () => {
               className="hero-badge inline-flex items-center gap-2 bg-white border-2 border-yellow rounded-full px-4.5 py-1.5 text-[0.82rem] font-extrabold text-dark mb-5 shadow-[0_3px_12px_rgba(255,217,61,0.25)]"
             >
               <Smile className="text-yellow" size={16} />
-              Admissions Open for 2026–27
+              Admissions Open from 15th March
             </motion.div>
             <motion.h1 
               initial={{ opacity: 0, y: 30 }}
@@ -63,7 +63,7 @@ const Hero = () => {
               className="font-display text-[clamp(2.2rem,5.5vw,3.8rem)] font-black leading-[1.1] mb-5"
             >
               Where <span className="text-pink">Little</span> Minds<br />
-              Start <span className="text-blue">Big</span> <span className="text-green">Dreams!</span> <Sparkles className="inline-block text-yellow" size={32} />
+              Grow <span className="text-blue">Big</span> <span className="text-green">Dreams!</span> <Sparkles className="inline-block text-yellow" size={32} />
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}

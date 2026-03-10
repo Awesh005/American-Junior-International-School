@@ -85,8 +85,8 @@ src/
 
 ## 📞 Contact Information
 
-- **Address**: Argora-Kathal More Road, Near Sai Apartment.
-- **Phone**: [+91 9759242134](tel:+919759242134)
+- **Address**: Argora - Kathal More Road, Near SAI Apartment, Pundag, Ranchi
+- **Phone**: [+91 9263064058](tel:+919263064058)
 - **Email**: [edgenie2025@gmail.com](mailto:edgenie2025@gmail.com)
 - **Website**: [ajis-school.com](https://ais-dev-fxnrvnl3yuxxz5liai7ixt-302851776627.asia-east1.run.app)
 

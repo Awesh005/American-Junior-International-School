@@ -1,6 +1,6 @@
 import React from 'react';
 import Reveal from './Reveal';
-import { Palette, Music, BookOpen, Bike, Brain, Sprout, Dumbbell, Puzzle, Target, ArrowRight, Gamepad2, Trophy, Medal, Smile } from 'lucide-react';
+import { Palette, Music, BookOpen, Bike, Brain, Sprout, Dumbbell, Puzzle, Target, ArrowRight, Gamepad2, Trophy, Medal, Smile, Languages, Activity } from 'lucide-react';
 import FloatingShapes from './FloatingShapes';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
@@ -14,7 +14,9 @@ const Activities = () => {
     { icon: <Brain size={32} className="text-purple" />, title: 'Brain Games', desc: 'Logic puzzles and creative thinking.', class: 'ben5' },
     { icon: <Sprout size={32} className="text-green-600" />, title: 'Nature Exploration', desc: 'Discovering the wonder of the natural world through hands-on activities.', class: 'ben6' },
     { icon: <Gamepad2 size={32} className="text-blue-600" />, title: 'Fun Games', desc: 'Interactive play that builds teamwork.', class: 'ben7' },
-    { icon: <Trophy size={32} className="text-yellow-600" />, title: 'Achievements', desc: 'Celebrating every small win.', class: 'ben8' },
+    { icon: <Activity size={32} className="text-red-500" />, title: 'Gymnastics', desc: 'Building strength, flexibility, and balance.', class: 'ben8' },
+    { icon: <Languages size={32} className="text-indigo-600" />, title: 'Foreign Languages', desc: 'Early exposure to global communication.', class: 'ben9' },
+    { icon: <Trophy size={32} className="text-yellow-600" />, title: 'Achievements', desc: 'Celebrating every small win.', class: 'ben10' },
   ];
 
   return (
@@ -69,7 +71,9 @@ const Activities = () => {
         .ben5 { background: #F3EEFF; }
         .ben6 { background: #FFF0E6; }
         .ben7 { background: #E6FFF8; }
-        .ben8 { background: #FFF5E6; }
+        .ben8 { background: #FFF0F0; }
+        .ben9 { background: #F0F0FF; }
+        .ben10 { background: #FFF5E6; }
       `}</style>
     </section>
   );

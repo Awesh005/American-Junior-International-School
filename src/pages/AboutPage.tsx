@@ -34,7 +34,7 @@ const AboutPage = () => {
 
   const timeline = [
     { year: '2010', title: 'The Seed is Planted', desc: 'AJIS began as a small playgroup with just 12 children and 2 dedicated teachers, driven by the belief that every child deserves a joyful start.', icon: '🌱', color: 'from-pink to-orange' },
-    { year: '2013', title: 'New Campus Opens', desc: 'Moved to our current, purpose-built campus on Argora-Kathal More Road with dedicated classrooms, an activity room, and outdoor play area.', icon: '🏫', color: 'from-blue to-purple' },
+    { year: '2013', title: 'New Campus Opens', desc: 'Moved to our current, purpose-built campus on Argora - Kathal More Road with dedicated classrooms, an activity room, and outdoor play area.', icon: '🏫', color: 'from-blue to-purple' },
     { year: '2016', title: 'Nursery & KG Programs Added', desc: 'Expanded our curriculum to include Nursery, LKG and UKG, serving children from age 2 all the way to school readiness at age 6.', icon: '🎓', color: 'from-green to-teal' },
     { year: '2019', title: 'Smart Classrooms Installed', desc: 'Introduced interactive digital boards and tech-aided learning stations, blending the best of traditional and modern education.', icon: '🖥️', color: 'from-yellow to-orange' },
     { year: '2022', title: '500+ Happy Graduates', desc: 'Celebrated our 500th graduate milestone — children who went on to excel in primary schools across the city, carrying the AJIS spirit with them.', icon: '🌟', color: 'from-purple to-pink' },
@@ -454,7 +454,7 @@ const AboutPage = () => {
           <ArrowUp size={20} />
         </motion.button>
         <motion.a 
-          href="https://wa.me/919759242134" 
+          href="https://wa.me/919263064058" 
           target="_blank"
           whileHover={{ scale: 1.1 }}
           className="w-13 h-13 rounded-full bg-[#25D366] text-white shadow-lg flex items-center justify-center"
